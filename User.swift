@@ -12,6 +12,7 @@ struct User {
     let firstName, lastName, email : String
     let age: Int
     let location: Location
+    
 }
 
 struct Location {
