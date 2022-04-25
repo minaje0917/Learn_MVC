@@ -15,6 +15,7 @@
 		1296C1F32764188C00CC9685 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1296C1F22764188C00CC9685 /* LoginViewController.swift */; };
 		1296C1F52764196700CC9685 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1296C1F42764196700CC9685 /* HomeViewController.swift */; };
 		7795A34928140F1300E436CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795A34828140F1300E436CC /* User.swift */; };
+		7795A34B28162E1500E436CC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795A34A28162E1500E436CC /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1296C1F22764188C00CC9685 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1296C1F42764196700CC9685 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7795A34828140F1300E436CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		7795A34A28162E1500E436CC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				1296C1E72764177800CC9685 /* Assets.xcassets */,
 				1296C1E92764177800CC9685 /* LaunchScreen.storyboard */,
 				1296C1EC2764177800CC9685 /* Info.plist */,
+				7795A34A28162E1500E436CC /* NetworkService.swift */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				1296C1DF2764177600CC9685 /* AppDelegate.swift in Sources */,
 				1296C1E12764177600CC9685 /* SceneDelegate.swift in Sources */,
 				7795A34928140F1300E436CC /* User.swift in Sources */,
+				7795A34B28162E1500E436CC /* NetworkService.swift in Sources */,
 				1296C1F52764196700CC9685 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

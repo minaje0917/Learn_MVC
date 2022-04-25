@@ -25,7 +25,19 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginBtnClicked(_ sender: UIButton) {
-        
+        NetworkService.shared.login(email: emailField.text!, password: passwordField.text!){ success in
+            if success {
+                self.gotoHomePage()
+            } else {
+                print("Invalid credential")
+            }
+        }
+    }
+    
+    private func gotoHomePage() {
+        let controller = storyboard?.instantiateViewController(withIdentifier: "HomeViewController")
+        as! HomeViewController
+        present(controller, animated: true, completion: nil)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
